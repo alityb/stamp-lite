@@ -12,17 +12,3 @@ This document outlines the implementation status of the STAMP research prototype
     *   **Loss Function:** Cross-Entropy (`nn.CrossEntropyLoss`).
     *   **Gradient Clipping:** Gradients are clipped to a max norm of 1.0.
     These are standard and reasonable choices, assumed to be consistent with the paper.
-
-## Approximated (Deviations from Paper)
-
-*TBD*
-
-## Missing (Not Implemented)
-
-*TBD*
-
-## Unsupported Claims
-
-This prototype does NOT support the following claims from the paper:
-
-*TBD*
