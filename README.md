@@ -3,8 +3,6 @@
 This repo is a small research prototype based on  
 **“STAMP: Spatial-Temporal Adapter with Multi-Head Pooling” (ML4H 2025)**.
 
-The goal is to **understand the architecture by rebuilding it**, not to reproduce reported numbers.
-
 ---
 
 ## Context
