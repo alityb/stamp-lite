@@ -16,8 +16,9 @@ class PositionalEncoding(nn.Module):
             self.spatial_pe = nn.Parameter(torch.randn(S, 1, D) * 0.02)
         if use_temporal:
             self.temporal_pe = nn.Parameter(torch.randn(1, T, D) * 0.02)
+
     def forward(self, x):
-    # x: (B, S, T, D)
+        # x: (B, S, T, D)
         if self.use_token:
             x = x + self.token_pe.unsqueeze(0)
         if self.use_spatial:
