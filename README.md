@@ -73,7 +73,7 @@ Empirically, aggregation choice matters less once token mixing is present, likel
 
 ---
 
-## Open questions
+## Open questions -- will revisit later
 
 - Why does positional encoding help so much even when it increases parameters?
 - Is CC-GMLP’s advantage mostly inductive bias or parameter efficiency?
